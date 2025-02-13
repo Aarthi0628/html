@@ -1,0 +1,103 @@
+.t {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.t thead {
+    background-color: rgb(195, 235, 103);
+    color: black;
+}
+.t th, .t td {
+    padding: 10px;
+    border: 1px solid black;
+}
+.t tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.t tbody tr:hover {
+    background-color: #ddd;
+
+}
+.d{
+text-align: right;
+}
+body{
+    background-color: rgb(172, 245, 172);
+}
+section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.header{
+    text-align: center;
+}
+aside {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 5px;
+   
+   
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+aside ul li {
+    margin: 10px 0;
+}
+aside ul li a {
+    text-decoration: none;
+    color: #000;
+}
+aside ul li a:hover {
+    text-decoration: underline;
+}
+ol {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: decimal;
+    font-family: Arial, sans-serif;
+
+}
+
+ol li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+   
+    font-family: Arial, sans-serif;
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+}
+
+.form input[type="text"], 
+.form input[type="date"], 
+.form input[type="email"], 
+.form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
